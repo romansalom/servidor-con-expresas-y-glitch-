@@ -1,0 +1,26 @@
+[
+  {
+    "name": "lapiz ",
+    "price": 120,
+    "color": "azul",
+    "id": 1
+  },
+  {
+    "name": "lapiz ",
+    "price": 120,
+    "color": "verde",
+    "id": 2
+  },
+  {
+    "name": "lapiz ",
+    "price": 150,
+    "color": "rosa",
+    "id": 3
+  },
+  {
+    "name": "lapiz ",
+    "price": 160,
+    "color": "dorado",
+    "id": 4
+  }
+]

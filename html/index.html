@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+
+    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css">
+</head>
+<body>
+
+    <h2 class="m-4 text-center">Agregar Producto</h2>
+    <div class="container">
+        <form action="http://localhost:8080/api/productos" method="post">
+            <div class="mb-5">
+                <label for="exampleInputTitle" class="form-label">Title</label>
+                <input type="text" name="title" class="form-control" id="exampleInputTitle">
+            </div>
+            <div class="mb-5">
+                <label for="exampleInputPrice" class="form-label">Price</label>
+                <input type="number" name="price" class="form-control" id="exampleInputPrice">
+            </div>
+            <div class="mb-5">
+                <label for="exampleInputThum" class="form-label">Thumbnail</label>
+                <input type="text" name="thumbnail" class="form-control" id="exampleInputThum">
+            </div>
+            <button type="submit" class="btn btn-lg btn-primary">AGREGAR</button>
+        </form>
+    </div>
+</body>
+</html>
